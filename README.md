@@ -36,15 +36,19 @@ Semantic-Segmentation-with-FCN-and-U-Net-Variants/
 
 ## 📊 Implementation Status (Last Updated: April 24, 2025)
 
-| Model | Status | Performance (mIoU) |
-|-------|--------|-------------------|
-| FCN-32s | ✅ Completed | XX.X% |
-| FCN-16s | ✅ Completed | XX.X% |
-| FCN-8s | ✅ Completed | XX.X% |
-| Vanilla U-Net | ✅ Completed | XX.X% |
-| U-Net w/o Skip Connections | ✅ Completed | XX.X% |
-| Residual U-Net | ✅ Completed | XX.X% |
-| Gated Attention U-Net | ✅ Completed | XX.X% |
+| Model                          | Status        | Performance (mIoU) |
+|--------------------------------|---------------|-------------------|
+| FCN-32s                        | ✅ Completed  | 0.7569%           |
+| FCN-16s                        | ✅ Completed  | 0.7815%           |
+| FCN-8s                         | ✅ Completed  | 0.8098%           |
+| FCN-32s (Fine-tuned)           | ✅ Completed  | 0.7455%           |
+| FCN-16s (Fine-tuned)           | ✅ Completed  | 0.8282%           |
+| FCN-8s (Fine-tuned)            | ✅ Completed  | 0.8438%           |
+| Vanilla U-Net                  | ✅ Completed  | 0.7606%           |
+| U-Net w/o Skip Connections     | ✅ Completed  | 0.7161%           |
+| Residual U-Net                 | ✅ Completed  | 0.8361%           |
+| Attention U-Net                | ✅ Completed  | 0.8352%           |
+
 
 ## 🎯 Tasks
 
@@ -150,7 +154,7 @@ The experimental results show that:
 
 ## 👥 Contributors
 
-- [Your Name]
+- Shiva Shankar Gande
 
 ## 📚 References
 
